@@ -4,12 +4,6 @@ My funny webpage
 ## General info
 This is my first project called my funny webpage
 
-
-## Screenshots
-![Example screenshot](projects/webpagephoto.png)
-
-
-
 ## Technologies
 * Tech 1 - HTML
 * Tech 2 - CSS
