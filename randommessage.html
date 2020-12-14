@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> My first project</title>
+        <meta charset="UTF"-8">
+        <link rel="stylesheet" type="text/css" href="randommessagecss.css">
+        
+    </head>
+    <body>
+
+
+<h1> Welcome to my funny webpage</h1>
+<div><p id="demo"></p><br>
+<p id="demo1"></p><br>
+<p id="demo2"></p><br></div>
+<h2 id="demo3"></h2>
+
+<button id ="but1" type ="button" onclick ="randommessage();">Click For a Joke!</button> <br>
+<button id ="but2" type ="button" onclick ="randommessage1();">Another One?</button><br>
+<button id ="but3" type ="button" onclick ="randommessage2();">One more ?</button><br>
+<button id ="but4" type ="button" onclick ="randomemojii();">Click for random emoji</button>
+<script>
+function randommessage () {
+    document.getElementById("demo").innerHTML = word;
+};
+function randommessage1 () {
+    document.getElementById("demo1").innerHTML = word1;
+};
+function randommessage2 () {
+    document.getElementById("demo2").innerHTML = word2;
+};
+const createmessage = ["Helvetica and Times New Roman walk into a bar.-Get out of here! 'shouts the bartender'. -We don't serve your type.",
+"Did you hear about the actor who fell through the floorboards? -He was just going through a stage.",
+"Did you hear about the claustrophobic astronaut? -He just needed a little space."];
+const word = createmessage[0];
+const word1 = createmessage[1];
+const word2 = createmessage[2];
+
+const createrandomemoji = [":D",":(",":()",":)","( O ) _ ( O )", " (O_O)",":O"];
+function randomemoji () {
+    const randmoji = createrandomemoji[Math.floor(Math.random()*createrandomemoji.length)];
+    return randmoji;
+};
+function randomemojii () {
+    document.getElementById("demo3").innerHTML=randomemoji();
+};
+
+</script>
+
+    </body>
+    <footer>
+        
+    </footer>
+</html>
