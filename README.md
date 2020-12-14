@@ -6,7 +6,7 @@ This is my first project called my funny webpage
 
 
 ## Screenshots
-![Example screenshot](C:/Users/jddav/Desktop/webpagephoto.png)
+![Example screenshot](projects/webpagephoto.png)
 
 
 
