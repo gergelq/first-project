@@ -2,7 +2,7 @@
 My funny webpage
 
 ## General info
-This is my first project
+webpage with jokes and emojis!
 
 
 ## Technologies
