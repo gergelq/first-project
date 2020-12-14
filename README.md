@@ -2,7 +2,7 @@
 My funny webpage
 
 ## General info
-This is my first project called my funny webpage
+This is my first project
 
 
 ## Technologies
