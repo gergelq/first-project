@@ -2,7 +2,12 @@
 My funny webpage
 
 ## General info
-webpage with jokes and emojis!
+This is my first project called my funny webpage
+
+
+## Screenshots
+![Example screenshot](C:/Users/jddav/Desktop/webpagephoto.png)
+
 
 
 ## Technologies
